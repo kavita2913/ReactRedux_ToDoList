@@ -131,29 +131,14 @@ input {
         font-size: 20px;
         width: 30px;
     }
-}
-
-
-
-
-
-/* 
-
-li {
-    margin-bottom: 10px;
-    list-style-type: none;
-}
-
-.list-item {
+    .eachItem {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 0;
+}
 }
 
-.list-item span {
-    flex: 1;
-}
 
-.delete {
-    cursor: pointer;
-    margin-right: 10px;
-} */
+
+
