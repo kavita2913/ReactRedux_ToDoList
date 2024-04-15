@@ -1,0 +1,50 @@
+.todo_style {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+}
+
+.todo_style .fa-trash {
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8566aa;
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color: aliceblue;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.todo_style .fa-trash:hover {
+    background-color: crimson;
+}
+
+.todo_style .fa-trash .list_style {
+    color: crimson;
+}
+
+@media (max-width:768px) {
+    .todo_style .fa-times {
+        margin: 0 15px 0 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    button {
+        margin-left: 5px;
+        min-height: 40px;
+        width: 40px;
+        color: #fff;
+        font-size: 30px;
+    }
+
+}
